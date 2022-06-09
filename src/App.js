@@ -27,6 +27,7 @@ class App extends React.Component {
       showMore: showMoreCopy,
     });
   };
+  
   render() {
     const { data } = this.props;
     const { currentCohort, showMore } = this.state;
